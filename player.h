@@ -14,8 +14,8 @@ private:
     sf::Sprite sprite;
 
 
-    float width = 128;
-    float height = 128;
+    float width = 256;
+    float height = 256;
 
 public:
     Player(float x, float y);
