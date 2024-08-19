@@ -9,7 +9,8 @@ add_executable(CPP main.cpp
         player.cpp
         player.h
         AABBCollision.cpp
-        AABBCollision.h)
+        AABBCollision.h
+        main.cpp)
 
 set(SFML_STATIC_LIBRARIES TRUE)
 set(SFML_DIR C:/SFML/lib/cmake/SFML)

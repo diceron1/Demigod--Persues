@@ -4,7 +4,7 @@
 Player::Player(float x, float y) {
     shape.setPosition(x, y);
     shape.setSize(sf::Vector2f(width, height));
-    if (!texture.loadFromFile("C:/Users/User/CLionProjects/CPP/Perseus.png")) {
+    if (!texture.loadFromFile("D:/C++/Demigod--Persues/Perseus.png")) {
         std::cout << "Error: Could not load Perseus.png" << std::endl;
     }
 
