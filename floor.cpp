@@ -4,7 +4,7 @@
 Floor::Floor(float x, float y, float width, float height) {
     shape.setPosition(x, y);
     shape.setSize(sf::Vector2f(width, height));
-    shape.setFillColor(sf::Color::Blue);  // Default color for the floor
+    shape.setFillColor(sf::Color::Yellow);  // Default color for the floor
 }
 
 // Get the bounding box of the floor

@@ -53,7 +53,7 @@ int main()
         if (sf::Keyboard::isKeyPressed(sf::Keyboard::W) && on_ground) {
             is_jumping = true;
             on_ground = false;
-            velocity.y = -300.f * scaleY;  // Jump
+            velocity.y = -350.f * scaleY;  // Jump
         }
 
         float deltaTime = clock.restart().asSeconds();
